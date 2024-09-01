@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    padding: 40px;
+}
+.design {
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 1000px;
+}

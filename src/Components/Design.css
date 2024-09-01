@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1440px) {
+    .portfolio {
+      height: 500px;  /* Adjust height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .portfolio {
+      height: 300px;  /* Further adjust height for very small screens */
+    }
+  }
